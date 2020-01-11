@@ -25,9 +25,9 @@ class Artist
 	song
 	end 
 	
-	def add_song(name)
-	  song << name 
-	end 
+# 	def add_song(name)
+# 	  song << name 
+# 	end 
   
   
 end 
