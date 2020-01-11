@@ -9,6 +9,10 @@ class Artist
     # @artist= artist 
   end 
   
+  def artist=(artist)
+    @artist= artist
+  end 
+  
   def self.all 
     @@all
   end 
