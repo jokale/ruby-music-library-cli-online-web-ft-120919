@@ -11,4 +11,12 @@ class Song
     @@all
   end 
   
+  def save 
+    @@all << name 
+  end 
+  
+  def self.destroy_all 
+    @@all = []
+  end 
+  
 end 
