@@ -24,5 +24,9 @@ class Artist
 	song.save
 	song
 	end 
+	
+	def add_song(name)
+	  song << name 
+	end 
   
 end 
