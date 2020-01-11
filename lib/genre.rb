@@ -32,5 +32,6 @@ class Genre
 	
 	def genre 
 	  genre.song 
+	end 
   
 end 
