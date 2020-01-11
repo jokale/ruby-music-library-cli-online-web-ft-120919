@@ -6,6 +6,7 @@ class Artist
     @name = name
     @@all << self 
     @songs = []
+    @artist= artist 
   end 
   
   def self.all 
