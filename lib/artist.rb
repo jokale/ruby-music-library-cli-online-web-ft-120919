@@ -30,6 +30,9 @@ class Artist
 	  @name 
 	end 
 	
+	def songs 
+	  @songs 
+	end 
 	
   
   
